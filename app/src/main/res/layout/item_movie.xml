@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="250dp"
+  android:background="?attr/selectableItemBackground">
+  <ImageView
+    android:id="@+id/ivMovie"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:contentDescription="@string/image_content_description"
+    android:scaleType="center" />
+</FrameLayout>
